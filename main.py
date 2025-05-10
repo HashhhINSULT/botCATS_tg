@@ -6,8 +6,7 @@ from PIL import Image, ImageOps
 import numpy as np
 from io import BytesIO
 
-# Замени 'TOKEN' на токен твоего бота
-bot = telebot.TeleBot("7789460888:AAGzTzLwPkPAYO3syTQGrE_711ytF2QRVJw")
+bot = telebot.TeleBot("TOKEN")
 
 # Параметры для обработки изображения
 IMAGE_SIZE = (224, 224) 
